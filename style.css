@@ -1,0 +1,71 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color:#333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* ✅ About Container */
+.about-container {
+    width: 70%;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 40px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Heading Styles */
+h1 {
+    text-align: center;
+    color: #2b3a55;
+    margin-bottom: 30px;
+}
+
+/* ✅ Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* ✅ Profile Image using Box Model */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: #e9f5ee;
+}
+
+/* ✅ Text next to image */
+.intro h2 {
+    color: #333;
+    margin: 0;
+}
+
+.intro p {
+    color: #666;
+    margin: 5px 0 0 0;
+}
+
+/* ✅ Content Box (Box Model) */
+.content-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.content-box p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
